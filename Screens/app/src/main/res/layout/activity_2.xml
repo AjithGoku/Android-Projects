@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Snow"
+    tools:context=".Activity2">
+
+    <TextView
+        android:id="@+id/emp_id_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="149dp"
+        android:text="@string/employee_id"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColor="@color/Black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/emp_id_edit_text"
+        style="@android:style/Widget.DeviceDefault.EditText"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/emp_id_textView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-8dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:ems="10"
+        android:inputType="text|textPersonName|number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColor="@color/Black"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/take_over_button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/DarkSlateGray"
+        android:onClick="take_over_device"
+        android:text="@string/take_over_button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColor="@color/White"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+</RelativeLayout>
